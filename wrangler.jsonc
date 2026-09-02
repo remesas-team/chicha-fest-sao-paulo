@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "chichafest-rm-pe",
+  "account_id": "ad38e89b57d3e91cf39fa141f00934b5",
+  "compatibility_date": "2026-09-02",
+  "pages_build_output_dir": "./dist"
+}
