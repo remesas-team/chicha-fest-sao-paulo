@@ -22,3 +22,21 @@
 
 /* Venue and map live below the event content, outside the generated cover */
 .location-section{padding:62px 22px 36px;border-top:1px solid #3a2630;background:radial-gradient(circle at 15% 10%,#3b1722,transparent 42%),#090607}.location-section h2{margin-bottom:28px}.location-section address{display:flex;flex-direction:column;gap:6px;padding:18px 16px;border:1px solid #72502d;border-left:5px solid var(--yellow);background:#120d0e;font-style:normal}.location-section address strong{font:clamp(22px,6vw,34px)/1 'Bebas Neue';letter-spacing:1px;color:var(--yellow)}.location-section address span{font:12px 'DM Mono';letter-spacing:1.3px;color:#fff}.map-frame{margin-top:18px;border:2px solid var(--yellow);background:#111;overflow:hidden}.map-frame iframe{display:block;filter:saturate(.85) contrast(1.08)}.map-link{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding:17px 16px;background:var(--yellow);color:#111;text-decoration:none;font-weight:700;font-size:13px}.map-link span{font-size:20px}@media(min-width:700px){.location-section{max-width:920px;margin:auto;padding:78px 32px 48px}.location-section address{padding:24px}.map-frame iframe{height:430px}}
+
+/* Centered editorial titles and live-video showcase */
+.centered-heading{text-align:center}
+.centered-heading>.eyebrow{display:block;text-align:center}
+.music h2,.section-title h2,.videos-section h2,.location-section h2{font-size:clamp(54px,14vw,82px);margin:18px auto 28px}
+.music{padding-left:22px;padding-right:22px}
+.music iframe{display:block}
+.section-title{margin-bottom:38px}
+.tickets .section-title .eyebrow{font-size:13px;letter-spacing:2.5px}
+.videos-section{padding:70px 22px;background:radial-gradient(circle at 90% 5%,#39200b,transparent 38%),#070606;border-top:1px solid #3a2630}
+.video-grid{display:grid;grid-template-columns:1fr;gap:24px;margin-top:34px}
+.video-grid article{background:#110d0e;border:1px solid #6f4c2c;border-bottom:4px solid var(--yellow);padding:8px}
+.video-frame{position:relative;aspect-ratio:16/9;overflow:hidden;background:#000}
+.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video-grid article>span{display:block;padding:14px 8px 9px;color:var(--yellow);font:14px 'DM Mono';letter-spacing:1px}
+.location-section .centered-heading{margin-bottom:32px}
+.location-section .centered-heading h2{margin-bottom:0}
+@media(min-width:700px){.music,.videos-section{max-width:920px;margin:auto;padding:78px 32px}.video-grid{grid-template-columns:repeat(2,1fr);gap:24px}.tickets .section-title .eyebrow{font-size:16px}}
