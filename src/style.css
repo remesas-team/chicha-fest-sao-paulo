@@ -7,3 +7,4 @@
 
 .vip-detail{display:flex;flex-direction:column;gap:5px;padding:14px 10px;background:#17233f;border-left:3px solid var(--yellow);color:#dfe5f2}.vip-detail b{font:11px "DM Mono";color:var(--yellow)}.vip-detail span{font-size:11px;color:#acb8d0;line-height:1.4}
 .intro .eyebrow{font-size:14px;letter-spacing:2.4px}.intro p{font-size:19px;line-height:1.6}
+.intro .eyebrow{font-size:17px;letter-spacing:2.8px}.intro p{font-size:22px;line-height:1.55}.chips span{font-size:17px;padding:25px 8px}
